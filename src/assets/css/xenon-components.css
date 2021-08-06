@@ -6492,15 +6492,6 @@ button.toast-close-button {
     padding-left: 10px
 }
 
-.xe-widget.xe-conversations .xe-body .xe-comment-entry .xe-comment .xe-user-name {
-    display: block;
-    margin-bottom: 5px
-}
-
-.xe-widget.xe-conversations .xe-body .xe-comment-entry .xe-comment .xe-user-name:hover strong {
-    color: #7d7f7f
-}
-
 .xe-widget.xe-conversations .xe-body .xe-comment-entry .xe-comment p {
     font-size: 12px
 }

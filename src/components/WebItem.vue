@@ -16,10 +16,7 @@
               <img :src="web.logo" class="lozad img-circle" width="40">
             </a>
             <div class="xe-comment">
-              <a href="#" class="xe-user-name overflowClip_1">
                 <strong>{{web.title}}</strong>
-              </a>
-              <p class="overflowClip_2">{{web.desc}}</p>
             </div>
           </div>
         </div>
@@ -48,4 +45,5 @@ export default {
 i {
   margin-right: 7px;
 }
+@import '//assets/css/';
 </style>

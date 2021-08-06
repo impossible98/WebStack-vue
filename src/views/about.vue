@@ -61,7 +61,7 @@
                           <img :src="authorImg" class="img-circle" width="40" />
                         </a>
                         <div class="xe-comment">
-                          <a href="#" class="xe-user-name overflowClip_1">
+                          <a href="#" class="xe-user-name">
                             <strong>Designer. Viggo.</strong>
                           </a>
                           <p class="overflowClip_2">
