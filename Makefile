@@ -7,7 +7,7 @@ build:
 	go build -o dist/surfing main.go
 
 develop:
-	./node_modules/.bin/vue-cli-service serve
+	./node_modules/.bin/vue-cli-service serve --open
 
 buildss:
 	npm run build

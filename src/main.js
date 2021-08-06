@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './App.vue'
 import Index from './views/index.vue'
-import About from './views/about.vue'
+import About from './views/About.vue'
 
 import './assets/css/fonts/linecons/css/linecons.css'
 import './assets/css/fonts/fontawesome/css/font-awesome.min.css'

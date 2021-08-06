@@ -94,7 +94,7 @@
 <script>
 import WebItem from '../components/WebItem.vue'
 import Footer from '../components/Footer.vue'
-import itemsData from '../assets/data.json'
+import itemsData from '../../config/data.json'
 
 export default {
   name: 'Index',
