@@ -27,8 +27,7 @@ export default {
       items: itemsData,
       lang: {},
       langList: [
-        {key: 'zh', name: '简体中文', flag: './assets/images/flags/flag-cn.png'},
-        {key: 'en', name: 'English', flag: './assets/images/flags/flag-us.png'}
+        {key: 'zh', name: '简体中文', flag: './assets/images/flags/flag-cn.png'}
       ]
     }
   },
