@@ -68,13 +68,6 @@
             </ul>
           </li>
         </ul>
-        <ul class="user-info-menu right-links list-inline list-unstyled">
-          <li class="hidden-sm hidden-xs">
-            <a href="https://github.com/Anjaxs/WebStack-vue" target="_blank">
-              <i class="fa-github"></i> GitHub
-            </a>
-          </li>
-        </ul>
       </nav>
 
       <div v-for="(item, idx) in items" :key="idx">
@@ -85,22 +78,18 @@
           <WebItem :item="subItem" :transName="transName" />
         </div>
       </div>
-
-      <Footer />
     </div>
   </div>
 </template>
 
 <script>
 import WebItem from '../components/WebItem.vue'
-import Footer from '../components/Footer.vue'
 import itemsData from '../../config/data.json'
 
 export default {
   name: 'Index',
   components: {
-    WebItem,
-    Footer
+    WebItem
   },
   data() {
     return {

@@ -8,12 +8,6 @@
             <img src="../assets/images/logo@2x.png" width="100%" alt="" class="visible-xs">
           </router-link>
         </div>
-        <div class="navbar-mobile-clear"></div>
-        <a href="https://github.com/Anjaxs/WebStack-vue" target="_blank">
-           <img style="position: absolute; top: 0; right: 0; border: 0;"
-               src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"
-               alt="Fork me on GitHub">
-        </a>
       </div>
     </nav>
 
@@ -84,21 +78,15 @@
             </div>
           </div>
         </div>
-
-        <Footer />
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import Footer from '../components/Footer.vue'
 
 export default {
   name: 'About',
-  components: {
-    Footer
-  },
   data() {
     return {
       authorImg: './assets/images/logos/viggoz.png'

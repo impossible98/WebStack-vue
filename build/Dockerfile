@@ -4,7 +4,8 @@ ADD . /src
 
 WORKDIR /src
 
-RUN yarn && yarn run build
+RUN yarn \
+    && yarn run build
 
 FROM superng6/darkhttpd
 
