@@ -6,12 +6,12 @@ WORKDIR /src
 
 RUN yarn && yarn run build
 
-FROM p3terx/darkhttpd
+FROM superng6/darkhttpd
 
 COPY --from=alpha /src/dist /www
 
 EXPOSE 80
 
-ENTRYPOINT ["/darkhttpd"]
+ENTRYPOINT [ "/darkhttpd" ]
 
-CMD ['/www']
+CMD [ "/www" ]
