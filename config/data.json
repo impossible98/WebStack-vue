@@ -51,6 +51,18 @@
                 "logo": "assets/images/logos/uisdc.png",
                 "title": "Google Search",
                 "desc": "设计师交流学习平台"
+            },
+            {
+                "url": "https://www.ruanyifeng.com/blog",
+                "logo": "assets/images/logos/uisdc.png",
+                "title": "阮一峰的网络日志",
+                "desc": "设计师交流学习平台"
+            },
+            {
+                "url": "https://www.bing.com",
+                "logo": "assets/images/logos/uisdc.png",
+                "title": "Bing Search",
+                "desc": "设计师交流学习平台"
             }
         ]
     }

@@ -38,13 +38,7 @@ export default {
   methods: {
     transName(webItem) {
       return this.lang.key === 'en' ? webItem.en_name : webItem.name;
-    },
-    moveSlow() {
-
     }
   }
 }
 </script>
-
-<style>
-</style>
