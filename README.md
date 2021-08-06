@@ -29,6 +29,5 @@ docker run --detach \
     --name home \
     --publish 10086:80 \
     --restart always \
-    impossible98/home \
-    --ipv6
+    impossible98/home
 ```

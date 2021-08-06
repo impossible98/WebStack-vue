@@ -10,4 +10,8 @@ FROM p3terx/darkhttpd
 
 COPY --from=alpha /src/dist /www
 
+EXPOSE 80
+
 ENTRYPOINT ["/darkhttpd"]
+
+CMD ['/www']
