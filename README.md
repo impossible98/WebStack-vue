@@ -19,3 +19,16 @@ yarn build
 ```
 yarn lint
 ```
+
+## Docker
+
+```
+docker run --detach \
+    --env PUID=1000 \
+    --env PGID=1000 \
+    --name home \
+    --publish 10086:80 \
+    --restart always \
+    p3terx/darkhttpd \
+    --ipv6
+```
