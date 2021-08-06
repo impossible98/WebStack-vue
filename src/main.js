@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './App.vue'
-import Index from './views/index.vue'
+import Home from './views/Home.vue'
 import About from './views/About.vue'
 
 import './assets/css/fonts/linecons/css/linecons.css'
@@ -16,7 +16,7 @@ Vue.config.productionTip = false
 Vue.use(VueRouter)
 
 const routes = [
-  { path: '/', component: Index },
+  { path: '/', component: Home },
   { path: '/about', component: About }
 ]
 
