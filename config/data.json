@@ -19,56 +19,38 @@
             {
                 "url": "https://www.toutiao.com",
                 "logo": "assets/images/logos/dribbble.png",
-                "title": "今日热榜",
+                "title": "今日头条",
                 "desc": "图形交互与界面设计交流、作品展示、学习平台。"
             },
             {
                 "url": "https://tophub.today",
                 "logo": "assets/images/logos/zcool.png",
-                "title": "站酷",
+                "title": "今日热榜",
                 "desc": "中国人气设计师互动平台"
             },
             {
-                "url": "https://www.pinterest.com/",
+                "url": "https://hub.docker.com/u/impossible98",
                 "logo": "assets/images/logos/pinterest.png",
-                "title": "Pinterest",
+                "title": "Dockerhub User",
                 "desc": "全球美图收藏采集站"
             },
             {
-                "url": "http://huaban.com/",
+                "url": "https://web.telegram.org",
                 "logo": "assets/images/logos/huaban.png",
-                "title": "花瓣",
+                "title": "Telegram",
                 "desc": "收集灵感,保存有用的素材"
             },
             {
-                "url": "https://medium.com/",
+                "url": "http://www.impossible98.icu:6880",
                 "logo": "assets/images/logos/medium.png",
-                "title": "Medium",
+                "title": "Aria",
                 "desc": "高质量设计文章"
             },
             {
-                "url": "http://www.uisdc.com/",
-                "logo": "assets/images/logos/uisdc.png",
-                "title": "优设",
-                "desc": "设计师交流学习平台"
-            },
-            {
-                "url": "https://www.producthunt.com",
-                "logo": "assets/images/logos/producthunt.png",
-                "title": "Producthunt",
-                "desc": "发现新鲜有趣的产品"
-            },
-            {
-                "url": "https://www.youtube.com",
-                "logo": "assets/images/logos/youtube.png",
-                "title": "Youtube",
-                "desc": "全球最大的学习分享平台"
-            },
-            {
                 "url": "https://www.google.com",
-                "logo": "assets/images/logos/google.png",
-                "title": "Google",
-                "desc": "全球最大的UI学习分享平台"
+                "logo": "assets/images/logos/uisdc.png",
+                "title": "Google Search",
+                "desc": "设计师交流学习平台"
             }
         ]
     }
