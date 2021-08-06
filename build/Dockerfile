@@ -4,8 +4,10 @@ ADD . /src
 
 WORKDIR /src
 
-RUN yarn \
-    && yarn run build
+RUN apt-get update; \
+    apt-get install --no-install-recommends --yes make; \
+    yarn ; \
+    make build
 
 FROM superng6/darkhttpd
 
