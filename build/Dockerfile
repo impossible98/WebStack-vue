@@ -9,3 +9,5 @@ RUN yarn && yarn run build
 FROM p3terx/darkhttpd
 
 COPY --from=alpha /src/dist /www
+
+ENTRYPOINT ["/darkhttpd"]

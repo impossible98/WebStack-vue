@@ -29,6 +29,6 @@ docker run --detach \
     --name home \
     --publish 10086:80 \
     --restart always \
-    p3terx/darkhttpd \
+    impossible98/home \
     --ipv6
 ```
